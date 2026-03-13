@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tarea 3</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="enter_credentials">Ingresa tus credenciales</string>
+    <string name="create_account">Crea una nueva cuenta</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="login_success_message">Has iniciado sesión correctamente</string>
+    <string name="retry_connection">Reintentar conexión</string>
+    <string name="app_connection">Conexión</string>
+    <string name="app_login">Login</string>
+    <string name="app_register">Registro</string>
+    <string name="app_success">Éxito</string>
+</resources>
