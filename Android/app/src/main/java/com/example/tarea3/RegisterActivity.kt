@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.FrameLayout
+import android.widget.ImageButton
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -46,11 +47,16 @@ class RegisterActivity : AppCompatActivity() {
             insets
         }
 
+        val btnBack = findViewById<ImageButton>(R.id.btnBack)
         val user = findViewById<EditText>(R.id.user)
         val pass = findViewById<EditText>(R.id.pass)
         val msg = findViewById<TextView>(R.id.mensaje)
         val btn = findViewById<Button>(R.id.btnRegistrar)
         val loadingOverlay = findViewById<FrameLayout>(R.id.loadingOverlay)
+
+        btnBack.setOnClickListener {
+            finish()
+        }
 
         val retrofit = Retrofit.Builder()
             .baseUrl("http://10.0.2.2:5000")

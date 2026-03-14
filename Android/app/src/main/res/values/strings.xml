@@ -14,4 +14,6 @@
     <string name="app_login">Login</string>
     <string name="app_register">Registro</string>
     <string name="app_success">Éxito</string>
+    <string name="back">Volver</string>
+    <string name="ini_sesion">Iniciando sesión...</string>
 </resources>

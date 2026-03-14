@@ -35,7 +35,7 @@ class WelcomeActivity : AppCompatActivity() {
         btnLogout.setOnClickListener {
             // Volver a MainActivity
             val intent = Intent(this, MainActivity::class.java)
-            // Limpiar el backstack para evitar que vuelvan al Welcome
+            // Evitar que vuelvan a esta pestaña sin estar logueado
             intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK
             startActivity(intent)
             finish()

@@ -8,6 +8,16 @@
     android:background="@color/gris"
     tools:context=".RegisterActivity">
 
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/back"
+        android:src="@drawable/ic_back"
+        app:tint="@color/azul_oscuro" />
+
     <LinearLayout
         android:id="@+id/contentLayout"
         android:layout_width="match_parent"
