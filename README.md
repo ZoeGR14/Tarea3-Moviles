@@ -8,7 +8,7 @@ Esta es una aplicación completa de autenticación (Login/Registro) desarrollada
 
 ## 🚀 Instrucciones de Uso
 
-### Prerequisitos
+### Prerrequisitos
 
 #### Backend
 
@@ -102,6 +102,9 @@ Ejemplo: `http://192.168.1.100:5000`
 
 <details>
 <summary>📸 Ver captura </summary>
+
+![Verificación](capturas/verificacion.png)
+
 </details>
 
 ### 2. Pantalla de Registro - `RegisterActivity`
@@ -114,7 +117,13 @@ Ejemplo: `http://192.168.1.100:5000`
    - Mensaje de éxito con limpieza de campos
 
 <details>
-<summary>📸 Ver captura </summary>
+<summary>📸 Ver capturas </summary>
+
+![Pantalla de Registro](capturas/pantalla_registro.png)
+![Registro de Usuario](capturas/registro.png)
+![Registro Exitoso](capturas/registro_exitoso.png)
+![Registro Repetido](capturas/registro_repetido.png)
+
 </details>
 
 ### 3. Pantalla de Login - `LoginActivity`
@@ -131,6 +140,12 @@ Ejemplo: `http://192.168.1.100:5000`
 
 <details>
 <summary>📸 Ver capturas </summary>
+
+![Pantalla de Login](capturas/pantalla_login.png)
+![Inicio de Sesión del Usuario](capturas/login.png)
+![Login Exitoso](capturas/pantalla_bienvenida.png)
+![Login Fallido](capturas/login_invalido.png)
+
 </details>
 
 ### 4. Manejo de errores de red
@@ -150,4 +165,12 @@ Si la petición a la API **se tarda demasiado** o **falla la conexión**:
 
 <details>
 <summary>📸 Ver capturas </summary>
+
+![ProgressBar Inicial](capturas/error_verificacion.png)
+![Error de Conexión con la API](capturas/red_inicio.png)
+![ProgressBar Registro](capturas/progreso_registro.png)
+![Error de Conexión en Registro](capturas/error_registro.png)
+![ProgressBar Login](capturas/progreso_login.png)
+![Error de Conexión en Login](capturas/error_login.png)
+
 </details>
