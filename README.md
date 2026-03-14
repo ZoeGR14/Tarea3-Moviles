@@ -103,7 +103,9 @@ Ejemplo: `http://192.168.1.100:5000`
 <details>
 <summary>📸 Ver captura </summary>
 
-![Verificación](capturas/verificacion.png)
+![Verificación de la API](capturas/verificacion.png)
+
+_Pantalla inicial con mensaje de la API_
 
 </details>
 
@@ -120,9 +122,20 @@ Ejemplo: `http://192.168.1.100:5000`
 <summary>📸 Ver capturas </summary>
 
 ![Pantalla de Registro](capturas/pantalla_registro.png)
+
+_Formulario de registro con campos de nombre del usuario y contraseña_
+
 ![Registro de Usuario](capturas/registro.png)
+
+_Usuario completando el proceso de registro_
+
 ![Registro Exitoso](capturas/registro_exitoso.png)
+
+_Mensaje de confirmación tras registro exitoso_
+
 ![Registro Repetido](capturas/registro_repetido.png)
+
+_Error al intentar registrar un nombre de usuario ya existente_
 
 </details>
 
@@ -142,9 +155,20 @@ Ejemplo: `http://192.168.1.100:5000`
 <summary>📸 Ver capturas </summary>
 
 ![Pantalla de Login](capturas/pantalla_login.png)
+
+_Formulario de login con campos de credenciales_
+
 ![Inicio de Sesión del Usuario](capturas/login.png)
+
+_Usuario ingresando sus credenciales_
+
 ![Login Exitoso](capturas/pantalla_bienvenida.png)
+
+_Pantalla de bienvenida mostrando el nombre del usuario autenticado_
+
 ![Login Fallido](capturas/login_invalido.png)
+
+_Error al intentar iniciar sesión con credenciales inválidas_
 
 </details>
 
@@ -167,10 +191,27 @@ Si la petición a la API **se tarda demasiado** o **falla la conexión**:
 <summary>📸 Ver capturas </summary>
 
 ![ProgressBar Inicial](capturas/error_verificacion.png)
+
+_Indicador de carga durante la verificación inicial_
+
 ![Error de Conexión con la API](capturas/red_inicio.png)
+
+_Error de conexión al verificar la API_
+
 ![ProgressBar Registro](capturas/progreso_registro.png)
+
+_Indicador de carga durante el proceso de registro_
+
 ![Error de Conexión en Registro](capturas/error_registro.png)
+
+_Error de conexión durante el registro_
+
 ![ProgressBar Login](capturas/progreso_login.png)
+
+_Indicador de carga durante el proceso de login_
+
 ![Error de Conexión en Login](capturas/error_login.png)
+
+_Error de conexión durante el login_
 
 </details>
